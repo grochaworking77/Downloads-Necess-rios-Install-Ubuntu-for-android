@@ -13,5 +13,12 @@ _VNC Viewer_ [Download](https://m.apkpure.com/br/vnc-viewer-remote-desktop/com.r
 
 - pkg update -y ; pkg install proot-distro
 - proot-distro install ubuntu
-- 
-- 
+- apt update ; apt install sudo nano
+- export USER=<Seu nome de usuário> ; adduser $USER ; echo "$USER ALL=(ALL:ALL) ALL" >> /etc/sudoers
+- su <Seu nome de usuário> 
+## GUI Interface Gráfica 🖥️
+- sudo apt install xfce4 xfce4-terminal xfce4-whiskermenu-plugin
+- sudo apt install yaru-theme-gtk yaru-theme-icon plank dbus-x11 tigervnc-standalone-server 
+
+
+                    Temas ⬆️
