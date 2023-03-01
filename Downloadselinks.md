@@ -23,5 +23,5 @@ _VNC Viewer_ [Download](https://m.apkpure.com/br/vnc-viewer-remote-desktop/com.r
 - Temas na GUI 🎨: sudo apt install yaru-theme-gtk yaru-theme-icon plank dbus-x11 tigervnc-standalone-server 
               
 - echo "vncserver -geometry 1280x720 -xstartup /usr/bin/startxfce4" >> /usr/local/bin/vncstart ; echo "vncserver -kill :1" >> /usr/local/bin/vncstop ; chmod +x /usr/local/bin/vncst* 
-
+- vncstart
                     
